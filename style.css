@@ -1,0 +1,90 @@
+@font-face {
+font-family: junegul;
+src: url(./public/fonts/junegull\ rg.otf);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: junegul;
+    background-color: yellow;
+}
+.heading{
+    font-size: 20px;
+    color: purple;
+}
+.form{  
+    display: inline-block;
+    margin: 15px;
+    padding: 40px 25px 40px 25px;
+    border: 1px solid black ;
+    border-radius: 25px;
+    box-shadow: 10px 10px rgba(0, 0, 0, .4    );
+    background-color: white;
+    color: purple;
+    /* transition: box-shadow 0.25s; */
+}
+
+.name{
+    display: block;
+}
+label{
+    margin-top: 5px;
+    display: block;
+    font-size: 20px;
+}
+.fname,
+.lname,.email{
+    border: black solid 1px;
+    padding: 10px;
+    border-radius: 5px;
+    margin:10px 0px 0px 0px;
+}
+.fname:active,
+.lname:active,.email:active{
+    border: 2px solid  black;
+}
+.email{
+    display: block;
+    width: 100%;
+}
+.dis-flex-center{
+    display: flex;
+    justify-content: center;
+}   
+.button{
+    width: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: junegul;
+    padding:10px ;
+    margin:30px 0px 0px 0px;
+    /* border-radius: 25px; */
+    color: purple;
+    /* border: 1px solid black; */
+    border: none;
+    /* background-color: rgb(232, 247, 21); */
+    background-color: white;
+    transition: opacity .15s;
+}
+.button:hover{
+    opacity: .8;
+}
+.button:active{
+    opacity: .5;
+}
+.btn-div{
+    position: relative;
+}
+.flowers-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+}
+.flowers-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
